@@ -13,9 +13,14 @@ extension Color {
 }
 
 struct ContentView: View {
+    var isOnboarded = true
     var body: some View {
         NavigationStack {
-            Home()
+            if(isOnboarded) {
+                Home()            }
+            else {
+                Onboarding()
+            }
         }
         
     }

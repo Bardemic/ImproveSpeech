@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+
 struct Switch: View {
     var header: String
     var radius = 12.0
@@ -49,16 +51,22 @@ struct NewSpeechForm: View {
             Spacer()
             Spacer()
             Spacer()
-            Image(systemName: "mic")
-                .resizable()
-                .scaledToFit()
-                .foregroundColor(.white)
-                .frame(width: 40.0, height: 40.0)
-                .background(
-                    Circle()
-                        .fill(Color.foregroundColor)
-                        .frame(width: 100, height: 100)
-                )
+            NavigationLink(destination: CurrentlySpeaking(), label: {
+                Image(systemName: "mic")
+                    .resizable()
+                    .scaledToFit()
+                    .foregroundColor(.white)
+                    .frame(width: 40.0, height: 40.0)
+                    .background(
+                        Circle()
+                            .fill(Color.foregroundColor)
+                            .frame(width: 100, height: 100)
+                    )
+            })
+            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+            .padding(.vertical, 30)
+            .foregroundColor(.white)
+            
             Spacer()
         }
         .background(Color.backgroundColor)
