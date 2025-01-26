@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E5E2E5F2D459C9000C9A3B8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E2E5E2D459C8F00C9A3B8 /* Home.swift */; };
+		1E5E2E612D459FB300C9A3B8 /* NewSpeechForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5E2E602D459FB300C9A3B8 /* NewSpeechForm.swift */; };
 		1E8BC3962D40B515003B6265 /* ImproveSpeechApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8BC3952D40B515003B6265 /* ImproveSpeechApp.swift */; };
 		1E8BC3982D40B515003B6265 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8BC3972D40B515003B6265 /* ContentView.swift */; };
 		1E8BC39A2D40B517003B6265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E8BC3992D40B517003B6265 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E5E2E5E2D459C8F00C9A3B8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1E5E2E602D459FB300C9A3B8 /* NewSpeechForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSpeechForm.swift; sourceTree = "<group>"; };
 		1E8BC3922D40B515003B6265 /* ImproveSpeech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImproveSpeech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E8BC3952D40B515003B6265 /* ImproveSpeechApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImproveSpeechApp.swift; sourceTree = "<group>"; };
 		1E8BC3972D40B515003B6265 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		1E8BC3942D40B515003B6265 /* ImproveSpeech */ = {
 			isa = PBXGroup;
 			children = (
+				1E5E2E602D459FB300C9A3B8 /* NewSpeechForm.swift */,
+				1E5E2E5E2D459C8F00C9A3B8 /* Home.swift */,
 				1E8BC3952D40B515003B6265 /* ImproveSpeechApp.swift */,
 				1E8BC3972D40B515003B6265 /* ContentView.swift */,
 				1E8BC3992D40B517003B6265 /* Assets.xcassets */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E5E2E612D459FB300C9A3B8 /* NewSpeechForm.swift in Sources */,
 				1E8BC3982D40B515003B6265 /* ContentView.swift in Sources */,
+				1E5E2E5F2D459C9000C9A3B8 /* Home.swift in Sources */,
 				1E8BC3962D40B515003B6265 /* ImproveSpeechApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
